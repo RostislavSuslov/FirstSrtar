@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#005BBB">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <title>Перша Зiрка</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+
+    <!-- 
+<div class='thetop'></div>
+<div class='scrolltop'>
+    <div  class='muve-top'></div>
+</div>
+-->
+    <a href="markup.html" class="markup-link">markup</a>
+
+    <header class="header">
+        <div class="wrapper">
+            <div class="row-custom jcsb aic">
+                <div class="header__menu-wrap">
+                    <a href="/" class="logo"><img src="../assets/img/Logo.svg" alt="" /></a>
+                    <nav>
+                        <ul>
+                            <li class="menu-item-has-children">
+                                <a href="about-page.html">Про нас</a>
+                                <ul class="sub-menu">
+                                    <li><a href="about-page.html">Про наш фонд</a></li>
+                                    <li><a href="template-page.html">Наші партнери</a></li>
+                                    <li><a href="reviews.html">Відгуки</a></li>
+                                    <li><a href="faq.html">Питання та відповіді (FAQ)</a></li>
+                                    <li><a href="contacts.html">Контакти</a></li>
+                                    <li><a href="template-page.html">Публічна оферта</a></li>
+                                    <li><a href="template-page.html">Політика конфіденціальності</a></li>
+                                    <li><a href="template-page.html">Установчі документи фонду</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="projects-category.html">Проекти</a></li>
+                            <li><a href="reviews.html">Відгуки</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="contacts.html">Контакти</a></li>
+                        </ul>
+                        <div class="mob-menu-bot">
+                            <div class="lang-row">
+                                <a href="#Ukraine" class="btn-icon">
+								<img src="../assets/img/Ukraine.svg" alt="" />
+							</a>
+                                <a href="#UK" class="btn-icon">
+								<img src="../assets/img/UK.svg" alt="" />
+							</a>
+                            </div>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Підтримати</a>
+                        </div>
+                    </nav>
+                </div>
+                <div class="header__info-wrap row-custom aic">
+                    <div class="header__phone-wrap">
+                        <div class="phone-dropdown">
+                            <div class="phone-dropdown__top">
+                                <a href="tel:+380 (55) 244-88-09">+380 (55) 244-88-09</a>
+                                <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.5897 0.841667C11.5123 0.76356 11.4201 0.701565 11.3185 0.659258C11.217 0.616951 11.1081 0.595169 10.9981 0.595169C10.888 0.595169 10.7791 0.616951 10.6776 0.659258C10.576 0.701565 10.4839 0.76356 10.4064 0.841667L6.58972 4.65833C6.51225 4.73643 6.42009 4.79843 6.31854 4.84074C6.21699 4.88304 6.10807 4.90482 5.99806 4.90482C5.88805 4.90482 5.77912 4.88304 5.67758 4.84074C5.57603 4.79843 5.48386 4.73643 5.40639 4.65833L1.58972 0.841667C1.51225 0.76356 1.42009 0.701565 1.31854 0.659258C1.21699 0.616951 1.10807 0.595169 0.998056 0.595169C0.888046 0.595169 0.779125 0.616951 0.677576 0.659258C0.576026 0.701565 0.483859 0.76356 0.40639 0.841667C0.25118 0.997802 0.164063 1.20901 0.164062 1.42917C0.164063 1.64932 0.25118 1.86053 0.40639 2.01666L4.23139 5.84166C4.70014 6.30982 5.33555 6.57279 5.99806 6.57279C6.66056 6.57279 7.29597 6.30982 7.76472 5.84166L11.5897 2.01666C11.7449 1.86053 11.8321 1.64932 11.8321 1.42917C11.8321 1.20901 11.7449 0.997802 11.5897 0.841667Z" fill="#005BBB" />
+                                </svg>
+                                <div class="btn-icon btn-mob-phone">
+                                    <i class="icon-svg icon-phone"></i>
+                                </div>
+                            </div>
+                            <div class="phone-dropdown__menu">
+                                <ul>
+                                    <li>
+                                        <a href="tel:+380 (55) 958-66-09">+380 (55) 958-66-09</a>
+                                        <a href="viber://chat?number=%2B380559586609">
+										<img src="../assets/img/viber.svg" alt="" />
+									</a>
+                                        <a href="https://telegram.me/voryag905">
+										<img src="../assets/img/telegram.svg" alt="" />
+									</a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+380 (55) 958-66-09">+380 (55) 958-66-09</a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+380 (67) 658-14-44">+380 (67) 658-14-44</a>
+                                    </li>
+                                </ul>
+                                <a href="mailto:info@pershazirka.ua" class="email">
+								info@pershazirka.ua
+							</a>
+                                <a href="#" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#formMessage">
+								<svg
+									width="18"
+									height="18"
+									viewBox="0 0 18 18"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M17.3411 0.66151C17.0723 0.389356 16.7377 0.191152 16.3699 0.0860478C16.002 -0.0190564 15.6132 -0.0275077 15.2411 0.0615104L3.24115 2.58901C2.55008 2.68379 1.8992 2.96962 1.3618 3.41432C0.824403 3.85902 0.421834 4.44493 0.199431 5.10606C-0.0229726 5.76719 -0.0563773 6.47728 0.102979 7.15637C0.262335 7.83546 0.608122 8.45657 1.1014 8.94976L2.3899 10.2375C2.45964 10.3072 2.51494 10.39 2.55265 10.4811C2.59036 10.5722 2.60973 10.6699 2.60965 10.7685V13.1445C2.6113 13.4786 2.68821 13.808 2.83465 14.1083L2.82865 14.1135L2.84815 14.133C3.06791 14.5749 3.42684 14.9322 3.86965 15.15L3.88915 15.1695L3.8944 15.1635C4.19467 15.31 4.52408 15.3869 4.85815 15.3885H7.23415C7.43294 15.3884 7.62366 15.4671 7.7644 15.6075L9.05215 16.8953C9.39754 17.2445 9.80864 17.5219 10.2617 17.7115C10.7148 17.9011 11.201 17.9992 11.6921 18C12.1015 17.9995 12.508 17.9326 12.8959 17.802C13.551 17.5869 14.1329 17.193 14.5761 16.6648C15.0192 16.1366 15.3059 15.495 15.4039 14.8125L17.9351 2.78626C18.0288 2.41099 18.0233 2.01783 17.9191 1.64533C17.815 1.27284 17.6158 0.933813 17.3411 0.66151V0.66151ZM3.4519 9.17851L2.16265 7.89076C1.86244 7.59778 1.65203 7.22525 1.55611 6.81688C1.4602 6.40851 1.48276 5.98126 1.62115 5.58526C1.75532 5.179 2.00335 4.81983 2.33575 4.55046C2.66814 4.28109 3.07091 4.11285 3.49615 4.06576L15.3769 1.56451L4.10815 12.8348V10.7685C4.10929 10.4733 4.05187 10.1807 3.93923 9.9078C3.82659 9.63488 3.66095 9.38701 3.4519 9.17851V9.17851ZM13.9301 14.556C13.8726 14.9703 13.7007 15.3603 13.4337 15.6822C13.1668 16.0042 12.8154 16.2454 12.419 16.3788C12.0226 16.5121 11.5969 16.5324 11.1896 16.4372C10.7823 16.342 10.4097 16.1352 10.1134 15.84L8.8234 14.55C8.61518 14.3406 8.36751 14.1746 8.09472 14.0616C7.82192 13.9486 7.52943 13.8908 7.23415 13.8915H5.1679L16.4381 2.62501L13.9301 14.556Z"
+										fill="#0B305D"
+									/>
+								</svg>
+								<span>Написати повідомлення</span>
+							</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__lang-wrap">
+                        <div class="lang-dropdown">
+                            <div class="lang-dropdown__top btn-icon">
+                                <img src="../assets/img/Ukraine.svg" alt="" />
+						</div>
+                                <div class="lang-dropdown__menu">
+                                    <ul>
+                                        <li>
+                                            <a href="#ua">
+										<img src="../assets/img/Ukraine.svg" alt="" />
+										<span>Українська</span>
+									</a>
+                                        </li>
+                                        <li>
+                                            <a href="#uk">
+										<img src="../assets/img/UK.svg" alt="" />
+										<span>English</span>
+									</a>
+                                        </li>
+                                        <li>
+                                            <a href="#uk">
+										<img src="../assets/img/UK.svg" alt="" />
+										<span>English</span>
+									</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="page-404.html" class="login btn-icon">
+					<svg
+						width="20"
+						height="20"
+						viewBox="0 0 20 20"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<g clip-path="url(#clip0_183_5966)">
+							<path
+								d="M10 9.99995C10.9889 9.99995 11.9556 9.7067 12.7779 9.1573C13.6001 8.60789 14.241 7.827 14.6194 6.91337C14.9978 5.99974 15.0969 4.9944 14.9039 4.0245C14.711 3.05459 14.2348 2.16368 13.5355 1.46441C12.8363 0.765152 11.9454 0.288949 10.9755 0.0960224C10.0055 -0.0969037 9.00021 0.00211302 8.08658 0.380551C7.17295 0.758989 6.39206 1.39985 5.84265 2.2221C5.29324 3.04434 5 4.01104 5 4.99995C5.00132 6.32563 5.52853 7.59663 6.46593 8.53402C7.40332 9.47142 8.67432 9.99863 10 9.99995ZM10 1.66662C10.6593 1.66662 11.3037 1.86211 11.8519 2.22838C12.4001 2.59466 12.8273 3.11525 13.0796 3.72434C13.3319 4.33343 13.3979 5.00365 13.2693 5.65025C13.1407 6.29685 12.8232 6.8908 12.357 7.35697C11.8908 7.82315 11.2969 8.14062 10.6503 8.26923C10.0037 8.39785 9.33348 8.33184 8.72439 8.07955C8.1153 7.82726 7.59471 7.40001 7.22844 6.85185C6.86216 6.30369 6.66667 5.65922 6.66667 4.99995C6.66667 4.11589 7.01786 3.26805 7.64298 2.64293C8.2681 2.01781 9.11595 1.66662 10 1.66662Z"
+								fill="#0B305D"
+							/>
+							<path
+								d="M10 11.6672C8.01155 11.6694 6.10518 12.4603 4.69914 13.8663C3.29309 15.2724 2.50221 17.1787 2.5 19.1672C2.5 19.3882 2.5878 19.6002 2.74408 19.7564C2.90036 19.9127 3.11232 20.0005 3.33333 20.0005C3.55435 20.0005 3.76631 19.9127 3.92259 19.7564C4.07887 19.6002 4.16667 19.3882 4.16667 19.1672C4.16667 17.6201 4.78125 16.1363 5.87521 15.0424C6.96917 13.9484 8.4529 13.3338 10 13.3338C11.5471 13.3338 13.0308 13.9484 14.1248 15.0424C15.2188 16.1363 15.8333 17.6201 15.8333 19.1672C15.8333 19.3882 15.9211 19.6002 16.0774 19.7564C16.2337 19.9127 16.4457 20.0005 16.6667 20.0005C16.8877 20.0005 17.0996 19.9127 17.2559 19.7564C17.4122 19.6002 17.5 19.3882 17.5 19.1672C17.4978 17.1787 16.7069 15.2724 15.3009 13.8663C13.8948 12.4603 11.9884 11.6694 10 11.6672Z"
+								fill="#0B305D"
+							/>
+						</g>
+						<defs>
+							<clipPath id="clip0_183_5966">
+								<rect width="20" height="20" fill="white" />
+							</clipPath>
+						</defs>
+					</svg>
+				</a>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Підтримати</a>
+                        <div class="btn-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <main class="action-page">
+        <div class="wrapper">
+            <div class="breadcrumb">
+                <span>
+      <span>
+        <a href="index.html">Головна </a> / <span><a href="projects-category.html">Проекти</a> /
+          <span><a href="project-item.html">«Благодійна шафа»</a> / 
+            <span class="breadcrumb_last">Про нас</span></span></span></span></span>
+            </div>
+        </div>
+
+
+
+        <h1 class="title-icon">
+        <i class="icon-svg icon-food"></i>
+        <span>Проект «Допомога» — пакет базових продуктів для пенсіонерів</span>
+    </h1>
+        <div class="wrapper">
+            <div class="post-item">
+                <div class="item-project__views">
+                    <div class="start-acton"><span>Початок:</span>24 червня 2022</div>
+                    <div class="end-acton"><span>Кінець:</span>24 серпня 2022</div>
+                </div>
+                <a href="./assets/img/action-item-1.png" class="fancybox" data-fancybox="gallery" data-caption="Caption #1">
+                <img src="./assets/img/action-item-1.png" class="aligncenter" alt="" />
+            </a>
+                <p>Знизу підіймавсь до Івана і затоплював гори глухий гомін ріки, а в нього капав од часу до часу прозорий дзвін колокільця. З-за галузки смереки виглядали зажурені гори, напоєні сумом тіней од хмар, що все стирали бліду усмішку царинок. Гори щохвилини міняли свій настрій: коли сміялась царинка, хмурився ліс. І як трудно було вдивитись в те рухливе обличчя гір, так трудно було дитині спіймати химерну мелодію пісні, що вилась, тріпала крильцями коло самого вуха і не давалась.</p>
+
+
+                <a href="./assets/img/action-item-7.png" class="fancybox" data-fancybox="gallery" data-caption="Caption #1">
+                <img src="./assets/img/action-item-7.png" class="alignleft" alt="" />
+            </a>
+                <p>Одного разу він покинув свої корови і подряпавсь на самий грунь. Ледве помітною стежкою підіймавсь вище і вище, поміж густі зарослі блідої папороті, колючої ожини й малини. Легко перескакував з камінця на камінчик, перелазив через повалені дерева, продирався крізь гіллячки кущів. За ним підіймався з долини вічний шум річки, росли гори, і вже вставав на крайнебі блакитний привид Чорногори. Довгі плакучі трави крили тепер боки гори, дзвінки корів обзивались, як далеке зітхання, все частіше попадалось велике каміння, що далі, на самім вершку, творило хаос поламаних скель, списаних лишаями, здушених у гадючих обіймах корінням смерек. Під ногами в Івана кождий камінь вкривали рудаві мхи, грубі м'які, шовкові. Теплі і ніжні, вони ховали у собі позолочену сонцем воду літніх дощів, м'яко вгинались і обіймали ногу, як пухова подушка. Кучерява зелень гогозів і афин запустила своє коріння у глибінь моху, а зверху сипнула росою червоних та синіх ягід. Тут Іван сів одпочити. Ніжно дзвеніла над ним хвоя смерек, змішавшись з шумом ріки, сонце налляло злотом глибоку долину, зазеленило трави, десь курився синій димок од ватри, з-за Ігриця оксамитовим гулом котився грім. Іван сидів і слухав, забувши зовсім, що має доглядати корови.</p>
+                <h2>Як оплатити набір</h2>
+                <p>І ось раптом в сій дзвінкій тиші почув він тиху музику, яка так довго і невловимо вилась круг його вуха, що навіть справляла муку! Застиглий і нерухомий, витягнув шию і з радісним напруженням ловив дивну мелодію пісні. Так люди не грали, він принаймні ніколи не чув. Але хто грав? Навкруги була пустка, самотній ліс і не видно було живої душі. Іван озирнувся назад, на скелі, - і скаменів. На камені, верхи, сидів "той", щезник, скривив гостру борідку, нагнув ріжки і, заплющивши очі, дув у флояру. </p>
+
+
+                <h2>Що входить у набір</h2>
+                <p>Знизу підіймавсь до Івана і затоплював гори глухий гомін ріки, а в нього капав од часу до часу прозорий дзвін колокільця. З-за галузки смереки виглядали зажурені гори, напоєні сумом тіней од хмар, що все стирали бліду усмішку царинок. Гори щохвилини міняли свій настрій: коли сміялась царинка, хмурився ліс. І як трудно було вдивитись в те рухливе обличчя гір, так трудно було дитині спіймати химерну мелодію пісні, що вилась, тріпала крильцями коло самого вуха і не давалась.</p>
+
+
+                <h3>Заголовок таблицы </h3>
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Найменування</th>
+                                <th>Вага</th>
+                                <th>Кількість</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Крупа гречана</td>
+                                <td>1 кг</td>
+                                <td>3 пакунки</td>
+                            </tr>
+                            <tr>
+                                <td>Олія соняшникова рафінована</td>
+                                <td>850 мл</td>
+                                <td>2 пляшки</td>
+                            </tr>
+                            <tr>
+                                <td>Чай чорний байховий</td>
+                                <td>250 г</td>
+                                <td>1 пачка </td>
+                            </tr>
+                            <tr>
+                                <td>Цукор білий фасований</td>
+                                <td>1,5 кг</td>
+                                <td>3 пакунки</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p>Одного разу він покинув свої корови і подряпавсь на самий грунь. Ледве помітною стежкою підіймавсь вище і вище, поміж густі зарослі блідої папороті, колючої ожини й малини. Легко перескакував з камінця на камінчик, перелазив через повалені дерева, продирався крізь гіллячки кущів. За ним підіймався з долини вічний шум річки, росли гори, і вже вставав на крайнебі блакитний привид Чорногори. Довгі плакучі трави крили тепер боки гори, дзвінки корів обзивались, як далеке зітхання, все частіше попадалось велике каміння, що далі, на самім вершку, творило хаос поламаних скель, списаних лишаями, здушених у гадючих обіймах корінням смерек. Під ногами в Івана кождий камінь вкривали рудаві мхи, грубі м'які, шовкові. Теплі і ніжні, вони ховали у собі позолочену сонцем воду літніх дощів, м'яко вгинались і обіймали ногу, як пухова подушка. Кучерява зелень гогозів і афин запустила своє коріння у глибінь моху, а зверху сипнула росою червоних та синіх ягід. Тут Іван сів одпочити. Ніжно дзвеніла над ним хвоя смерек, змішавшись з шумом ріки, сонце налляло</p>
+                <div class="repost">
+                    <div class="repost-title">Поширюйте інформацію про проект:</div>
+                    <nav class="nav-socials">
+                        <a href="#"><img src="assets/img/icon-facebook.svg" class="img-fluid" alt="facebook"></a>
+                        <a href="https://telegram.me/voryag905"><img src="assets/img/icon-telegram.svg" class="img-fluid" alt="telegram"></a>
+                        <a href="#"><img src="assets/img/icon-twiter.svg" class="img-fluid" alt="twiter"></a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="interest-actions">
+            <h2 class="title-icon">
+
+        <span>Вас може зацікавити</span>
+    </h2>
+            <div class="template-grid">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="item-action">
+                                <a href="action-item.html" class="item-project__img">
+                            <img src="./assets/img/action-item-1.png" alt="">
+                        </a>
+                                <div class="item-project__info-wrap">
+                                    <div class="item-project__title">
+                                        <div class="action-icon">
+                                            <img src="assets/img/icon-food.svg" class="img-fluid" alt="icon-food">
+                                </div>
+                                            <a href="action-item.html">Проект «Допомога» — пакет базових продуктів для пенсіонерів</a>
+                                        </div>
+                                        <div class="item-project__descr">
+                                            Фонд «Перша Зірка» дає можливість оплатити набір базових продуктів вартістю 225 грн, який доставлять пенсіонерам вашого міста
+                                        </div>
+                                        <div class="item-project__date">
+                                            <span>3 травня — 24 серпня 2022</span>
+                                            <a href="action-item.html" class="action-link"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="item-action">
+                                    <a href="action-item.html" class="item-project__img">
+                            <img src="./assets/img/action-item-2.png" alt="">
+                        </a>
+                                    <div class="item-project__info-wrap">
+                                        <div class="item-project__title">
+                                            <div class="action-icon">
+                                                <img src="assets/img/icon-clothes.svg" class="img-fluid" alt="icon-clothes">
+                                </div>
+                                                <a href="action-item.html">Акція «Благодійна шафа»</a>
+                                            </div>
+                                            <div class="item-project__descr">
+                                                Фонд «Перша Зірка» дає можливість оплатити набір базових продуктів вартістю 225 грн, який доставлять пенсіонерам вашого міста
+                                            </div>
+                                            <div class="item-project__date">
+                                                <span>3 травня — 24 серпня 2022</span>
+                                                <a href="action-item.html" class="action-link"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+        <section class="project-slider">
+            <div class="wrapper">
+                <h2 class="title-icon">
+
+            <span>Вас може зацікавити</span>
+        </h2>
+
+                <div class="slider-project slider-def slider-def-three-el">
+                    <div class="item-project">
+                        <a href="project-item.html" class="item-project__img">
+                    <img src="./assets/img/proj-item-1.png" alt="" />
+                </a>
+                        <div class="item-project__info-wrap">
+                            <div class="item-project__title">
+                                <a href="project-item.html">Збір коштів на прихисток для біжинців на Вінничині</a>
+                                <div class="progress">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="60" width="60" data-value="55">
+                                        <circle class="bg" cx="30" cy="30" r="25" fill="none" stroke="#EDF1F4" stroke-miterlimit="10" />
+                                        <circle class="meter" cx="30" cy="30" r="25" fill="none" stroke="#FFD018" stroke-dashoffset="157" stroke-dasharray="157" stroke-miterlimit="10" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="item-project__wrap-sum">
+                                <div class="item-project__wrap-sum-from">
+                                    <span>Мета:</span>
+                                    <span>850 000 грн</span>
+                                </div>
+                                <div class="item-project__wrap-sum-to">
+                                    <span>Зібрано:</span>
+                                    <b>0 грн</b>
+                                </div>
+                            </div>
+                            <div class="item-project__date">
+                                <span>0 долучилися</span>
+                                <span>Серпень – вересень 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-project">
+                        <a href="project-item.html" class="item-project__img">
+                    <img src="./assets/img/proj-item-2.png" alt="" />
+                </a>
+                        <div class="item-project__info-wrap">
+                            <div class="item-project__title">
+                                <a href="project-item.html">Допомога захисникам та захисницям України</a>
+                                <div class="progress">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="60" width="60" data-value="44">
+                                        <circle class="bg" cx="30" cy="30" r="25" fill="none" stroke="#EDF1F4" stroke-miterlimit="10" />
+                                        <circle class="meter" cx="30" cy="30" r="25" fill="none" stroke="#FFD018" stroke-dashoffset="157" stroke-dasharray="157" stroke-miterlimit="10" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="item-project__wrap-sum">
+                                <div class="item-project__wrap-sum-from">
+                                    <span>Мета:</span>
+                                    <span>1 980 000 грн</span>
+                                </div>
+                                <div class="item-project__wrap-sum-to">
+                                    <span>Зібрано:</span>
+                                    <b>1 485 000 грн</b>
+                                </div>
+                            </div>
+                            <div class="item-project__date">
+                                <span>0 долучилися</span>
+                                <span class="item-project__date-now">Триває зараз</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-project">
+                        <a href="project-item.html" class="item-project__img">
+                    <img src="./assets/img/proj-item-3.png" alt="" />
+                </a>
+                        <div class="item-project__info-wrap">
+                            <div class="item-project__title">
+                                <a href="project-item.html">Збір коштів на прихисток для біжинців на Вінничині</a>
+                                <div class="progress">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="60" width="60" data-value="25">
+                                        <circle class="bg" cx="30" cy="30" r="25" fill="none" stroke="#EDF1F4" stroke-miterlimit="10" />
+                                        <circle class="meter" cx="30" cy="30" r="25" fill="none" stroke="#FFD018" stroke-dashoffset="157" stroke-dasharray="157" stroke-miterlimit="10" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="item-project__wrap-sum">
+                                <div class="item-project__wrap-sum-from">
+                                    <span>Мета:</span>
+                                    <span>850 000 грн</span>
+                                </div>
+                                <div class="item-project__wrap-sum-to">
+                                    <span>Зібрано:</span>
+                                    <b>0 грн</b>
+                                </div>
+                            </div>
+                            <div class="item-project__date">
+                                <span>0 долучилися</span>
+                                <span>Серпень – вересень 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-project">
+                        <a href="project-item.html" class="item-project__img">
+                    <img src="./assets/img/proj-item-4.png" alt="" />
+                </a>
+                        <div class="item-project__info-wrap">
+                            <div class="item-project__title">
+                                <a href="project-item.html">Допомога захисникам та захисницям України</a>
+                                <div class="progress">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="60" width="60" data-value="100">
+                                        <circle class="bg" cx="30" cy="30" r="25" fill="none" stroke="#EDF1F4" stroke-miterlimit="10" />
+                                        <circle class="meter" cx="30" cy="30" r="25" fill="none" stroke="#FFD018" stroke-dashoffset="157" stroke-dasharray="157" stroke-miterlimit="10" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="item-project__wrap-sum">
+                                <div class="item-project__wrap-sum-from">
+                                    <span>Мета:</span>
+                                    <span>1 980 000 грн</span>
+                                </div>
+                                <div class="item-project__wrap-sum-to">
+                                    <span>Зібрано:</span>
+                                    <b>1 485 000 грн</b>
+                                </div>
+                            </div>
+                            <div class="item-project__date">
+                                <span>0 долучилися</span>
+                                <span class="item-project__date-now">Триває зараз</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="wrapper">
+            <div class="row-custom jcsb">
+                <div class="footer__col">
+                    <div class="footer__title">Зробити добро</div>
+                    <div class="footer__menu">
+                        <ul>
+                            <li><a href="projects-category.html">Проекти</a></li>
+                            <li><a href="actions.html">Акції</a></li>
+                            <li><a href="projects-category.html">Тривалі проекти</a></li>
+                            <li><a href="projects-category.html">Завершені проекти</a></li>
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#formRequest">Заявка на проект</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="footer__col">
+                    <div class="footer__title">Про наш фонд</div>
+                    <div class="footer__menu">
+                        <ul>
+                            <li><a href="about-page.html">Про нас</a></li>
+                            <li><a href="template-page.html">Наші партнери</a></li>
+                            <li><a href="reviews.html">Відгуки</a></li>
+                            <li><a href="contacts.html">Контакти</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="footer__col">
+                    <div class="footer__title">Інформація</div>
+                    <div class="footer__menu">
+                        <ul>
+                            <li><a href="news.html">Новини сайту</a></li>
+                            <li><a href="template-page.html">Політика конфіденціальності</a></li>
+                            <li><a href="template-page.html">Публічна оферта</a></li>
+                            <li><a href="template-page.html">Установчі документи фонду</a></li>
+                            <li><a href="faq.html">Питання та відповіді (FAQ)</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="footer__col">
+                    <div class="footer__title">Контактна інформація</div>
+                    <div class="footer__info">
+                        <ul class="footer__phones">
+                            <li>
+                                <a href="tel:+380 (55) 958-66-09">+380 (55) 958-66-09</a>
+                                <a href="viber://chat?number=%2B380559586609">
+								<img src="../assets/img/viber.svg" alt="" />
+							</a>
+                                <a href="https://telegram.me/voryag905">
+								<img src="../assets/img/telegram.svg" alt="" />
+							</a>
+                            </li>
+                            <li>
+                                <a href="tel:+380 (55) 958-66-09">+380 (55) 958-66-09</a>
+                            </li>
+                            <li>
+                                <a href="tel:+380 (67) 658-14-44">+380 (67) 658-14-44</a>
+                            </li>
+                        </ul>
+                        <a href="mailto:info@pershazirka.ua" class="email">
+						info@pershazirka.ua
+					</a>
+                        <ul class="soc-icons">
+                            <li><a href="#"><i class="icon-svg icon-facebook"></i></a></li>
+                            <li><a href="#"><i class="icon-svg icon-insta"></i></a></li>
+                            <li><a href="#"><i class="icon-svg icon-twitter"></i></a></li>
+                            <li><a href="#"><i class="icon-svg icon-youtube"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer__copy">© 2022 – 2024 Благодійний фонд «Перша Зірка»</div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="form-tab">
+                        <div class="form-tab__tabs">
+
+                            <div class="btn-tab btn-tab--active">Я хочу допомогти</div>
+                        </div>
+                        <p class="form-tab__descr"><span>*</span> усі поля обов’язкові</p>
+                        <form action="">
+                            <div class="input-wrap">
+                                <input type="text" placeholder="Як до вас звертатися?" />
+                                <div class="icon-wrap">
+                                    <i class="icon-svg icon-user-inp"> </i>
+                                    <div class="note">
+                                        Ваші ім’я та прізвище. Більше даних ви можете ввести у
+                                        приватному кабінеті. Для авторизації натисніть на іконку “Вхід у
+                                        шапці сайту”
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-wrap">
+                                <input type="tel" placeholder="Ваш номер телефону" />
+                                <div class="icon-wrap">
+                                    <i class="icon-svg icon-phone-inp"> </i>
+                                    <div class="note">
+                                        Ваші ім’я та прізвище. Більше даних ви можете ввести у
+                                        приватному кабінеті. Для авторизації натисніть на іконку “Вхід у
+                                        шапці сайту”
+                                    </div>
+                                </div>
+                            </div>
+                            <select class="select">
+                                <option data-display="Де ви плануєте провести подію?" disabled>
+                                    Де ви плануєте провести подію?
+                                </option>
+                                <option value="1">Подія 1</option>
+                                <option value="2">Подія 2</option>
+                                <option value="3">Подія 3</option>
+                                <option value="4">Подія 4</option>
+                            </select>
+                            <select class="select">
+                                <option data-display="Яку допомогу ви плануєте?" disabled>
+                                    Яку допомогу ви плануєте?
+                                </option>
+                                <option value="Хворим дітям">Хворим дітям</option>
+                                <option value="Збройним силам України">
+                                    Збройним силам України
+                                </option>
+                                <option value="Вимушеним переселенцям">
+                                    Вимушеним переселенцям
+                                </option>
+                                <option value="Літнім людям">Літнім людям</option>
+                                <option value="Інше">Вуличним тваринам</option>
+                            </select>
+                            <textarea placeholder="Опишіть свій проект"></textarea>
+                            <input type="hidden" value="Я хочу допомогти" />
+                            <button class="btn btn-primary">
+                                <i class="icon-svg icon-plus"></i>
+                                <span>Зробити внесок</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="leaveFeedback" tabindex="-1" aria-labelledby="leaveFeedbackLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="form-tab">
+                        <div class="form-tab__tabs">
+
+                            <div class="btn-tab btn-tab--active">Я хочу залишити відгук</div>
+                        </div>
+                        <p class="form-tab__descr"><span>*</span> усі поля обов’язкові</p>
+                        <form action="">
+                            <div class="input-wrap">
+                                <input type="text" placeholder="Як до вас звертатися?" />
+                                <div class="icon-wrap">
+                                    <i class="icon-svg icon-user-inp"> </i>
+                                    <div class="note">
+                                        Ваші ім’я та прізвище.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-wrap">
+                                <input type="tel" placeholder="Ваш номер телефону" />
+                                <div class="icon-wrap">
+                                    <i class="icon-svg icon-phone-inp"> </i>
+                                    <div class="note">
+                                        Введіть свій номер телефону
+                                    </div>
+                                </div>
+                            </div>
+
+                            <textarea placeholder="Опишіть свій проект"></textarea>
+                            <input type="hidden" value="Я хочу допомогти" />
+                            <button class="btn btn-primary">
+                                <i class="icon-svg icon-plus"></i>
+                                <span>Залишити відгук</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="formRequest" tabindex="-1" aria-labelledby="formRequestLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="form-tab">
+                        <div class="form-tab__tabs">
+
+                            <div class="btn-tab btn-tab--active">я хочу запропонувати заявку на проект</div>
+                        </div>
+                        <p class="form-tab__descr"><span>*</span> усі поля обов’язкові</p>
+                        <form action="">
+                            <div class="input-wrap">
+                                <input type="text" placeholder="Як до вас звертатися?" />
+                                <div class="icon-wrap">
+                                    <i class="icon-svg icon-user-inp"> </i>
+                                    <div class="note">
+                                        Ваші ім’я та прізвище.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-wrap">
+                                <input type="tel" placeholder="Ваш номер телефону" />
+                                <div class="icon-wrap">
+                                    <i class="icon-svg icon-phone-inp"> </i>
+                                    <div class="note">
+                                        Введіть свій номер телефону
+                                    </div>
+                                </div>
+                            </div>
+
+                            <textarea placeholder="Опишіть свій проект"></textarea>
+                            <input type="hidden" value="Зробити заявку на проект" />
+                            <button class="btn btn-primary">
+                                <i class="icon-svg icon-plus"></i>
+                                <span>Зробити заявку</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="formMessage" tabindex="-1" aria-labelledby="formMessageLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="form-tab">
+                        <div class="form-tab__tabs">
+
+                            <div class="btn-tab btn-tab--active">я хочу написати повідомлення</div>
+                        </div>
+                        <p class="form-tab__descr"><span>*</span> усі поля обов’язкові</p>
+                        <form action="">
+                            <div class="input-wrap">
+                                <input type="text" placeholder="Як до вас звертатися?" />
+                                <div class="icon-wrap">
+                                    <i class="icon-svg icon-user-inp"> </i>
+                                    <div class="note">
+                                        Ваші ім’я та прізвище.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-wrap">
+                                <input type="tel" placeholder="Ваш номер телефону" />
+                                <div class="icon-wrap">
+                                    <i class="icon-svg icon-phone-inp"> </i>
+                                    <div class="note">
+                                        Введіть свій номер телефону
+                                    </div>
+                                </div>
+                            </div>
+
+                            <textarea placeholder="Опишіть свій проект"></textarea>
+                            <input type="hidden" value="Відправити повідомлення" />
+                            <button class="btn btn-primary">
+                                <i class="icon-svg icon-plus"></i>
+                                <span>Відправити повідомлення</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/library.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
